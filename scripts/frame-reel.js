@@ -8,7 +8,7 @@ let frameCount = 14
 
 for (let i = 1; i <= frameCount; i = i + 1) {
   let image = document.createElement('img')
-  image.src = `images/pravdinsk-identity/cover-sequence/pravdinsk-cover-${i}.jpg`
+  image.src = `https://venyalebedev.github.io/anya-portfolio/images/pravdinsk-identity/cover-sequence/pravdinsk-cover-${i}.jpg`
 
   frameReel.append(image)
 }
