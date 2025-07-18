@@ -1,0 +1,16 @@
+
+:root {
+  --text-RGB:        5, 5, 5;
+  --link-RGB:        5, 5, 5;
+  --hover-RGB:       255, 116, 193;
+  --accent-RGB:      253, 47, 75;
+  --code-RGB:        115, 120, 125;
+  --mark-RGB:        255, 225, 0;
+  --surface-RGB:     238, 240, 242;
+  --background-RGB:  240, 240, 240;
+}
+
+body {
+  color: rgba(var(--text-RGB), 1);
+  background-color: rgba(var(--background-RGB), 1);
+}
